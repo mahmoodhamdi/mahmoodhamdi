@@ -15,16 +15,16 @@ Welcome to my coding space! I'm a passionate Flutter developer 🚀 currently na
 
 <p align="left">
   <a href="https://www.linkedin.com/in/mahmoud-hamdy-alashwah/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="40" height="40" alt="LinkedIn" style="margin-right: 15px;" />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="40" height="40" alt="LinkedIn" style="margin-right: 30px;" />
   </a>
   <a href="https://wakatime.com/@mahmoud_hamdy" target="_blank">
-    <img src="https://wakatime.com/static/img/wakatime.svg" width="40" height="40" alt="Wakatime" style="margin-right: 15px;" />
+    <img src="https://wakatime.com/static/img/wakatime.svg" width="40" height="40" alt="Wakatime" style="margin-right: 30px;" />
   </a>
   <a href="mailto:hmdy7486@gmail.com" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" width="40" height="40" alt="Gmail" style="margin-right: 15px;" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" width="40" height="40" alt="Gmail" style="margin-right: 30px;" />
   </a>
   <a href="https://www.facebook.com/MahmoudHamdyElashwah/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="40" height="40" alt="Facebook" style="margin-right: 15px;" />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="40" height="40" alt="Facebook" style="margin-right: 30px;" />
   </a>
 </p>
 
