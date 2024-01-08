@@ -36,8 +36,8 @@ Welcome to my coding space! I'm a passionate Flutter developer 🚀 currently na
 -   ### GitHub Streak: ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mahmoodhamdi&theme=tokyonight&hide_border=true)
 -   ### Top Languages: ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mahmoodhamdi&theme=chartreuse-dark)
 
-## 📊 Weekly Development Stats
+<!-- ## 📊 Weekly Development Stats
 
 <p align="left">
   <img src="https://wakatime.com/share/@mahmoud_hamdy/37fa5f30-174a-49e1-beca-55fc70dbb800.png" alt="Weekly Development Stats" />
-</p>
+</p> -->
