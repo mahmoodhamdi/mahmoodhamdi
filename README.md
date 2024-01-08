@@ -30,8 +30,7 @@ Welcome to my coding space! I'm a passionate Flutter developer 🚀 currently na
 ## 🔥 GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mahmoodhamdi&theme=tokyonight&hide_border=true" height="150" alt="GitHub Streak" />
-    <img align="right" height="215em" alt="postmodern's top-languages stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=postmodern&theme=chartreuse-dark" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mahmoodhamdi&theme=tokyonight&hide_border=true" height="150" alt="GitHub Streak" /><img align="right" height="215em" alt="Mahmood's top-languages stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahmoodhamdi&theme=chartreuse-dark" />
 
 </p>
 <!-- <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=mahmoodhamdi&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
