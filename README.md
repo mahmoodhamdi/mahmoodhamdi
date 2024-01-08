@@ -30,8 +30,8 @@ Welcome to my coding space! I'm a passionate Flutter developer 🚀 currently na
 ## 🔥 GitHub Stats
 
 ### Profile Insights
-- Profile Views: ![Profile Views](https://komarev.com/ghpvc/?username=mahmoodhamdi&label=Profile%20views&color=0e75b6&style=flat)
-- GitHub Streak: ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mahmoodhamdi&theme=tokyonight&hide_border=true)
+- ## Profile Views: ![Profile Views](https://komarev.com/ghpvc/?username=mahmoodhamdi&label=Profile%20views&color=0e75b6&style=flat)
+- ## GitHub Streak: ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mahmoodhamdi&theme=tokyonight&hide_border=true)
 
 ### Top Languages
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mahmoodhamdi&theme=chartreuse-dark)
