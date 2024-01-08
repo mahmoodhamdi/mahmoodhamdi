@@ -30,6 +30,7 @@ Welcome to my coding space! I'm a passionate Flutter developer 🚀 currently na
 ## 🔥 GitHub Stats
 
 <p align="left">
+  <img src="https://komarev.com/ghpvc/?username=mahmoodhamdi&label=Profile%20views&color=0e75b6&style=flat" alt="mahmoodhamdi" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mahmoodhamdi&theme=tokyonight&hide_border=true" height="150" alt="GitHub Streak" /><img align="right" height="215em" alt="Mahmood's top-languages stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahmoodhamdi&theme=chartreuse-dark" />
 
 </p>
