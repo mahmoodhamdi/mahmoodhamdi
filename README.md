@@ -3,7 +3,7 @@
 <!-- # Hi there, I'm Mahmoud! 👨‍💻 -->
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=👋This+is+mahmood+hamdi...;Nice+to+meet+you!&center=true&size=25">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=👋This+is+mahmood+hamdi...;Nice+to+meet+you!&center=true&size=30">
   </a>
 </h1>
 Welcome to my coding space! I'm a passionate Flutter developer 🚀 currently navigating the exciting world of Software Engineering 📚. I love turning ideas into reality using Dart/Flutter.
