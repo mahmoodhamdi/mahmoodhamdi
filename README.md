@@ -24,7 +24,7 @@ Welcome to my coding space! I'm a passionate Flutter developer 🚀 currently na
 
 <p align="left">
   <a href="https://www.linkedin.com/in/mahmoud-hamdy-alashwah/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="40" height="40" alt="LinkedIn" style="margin-right: 15px;" />
+    <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
   <a href="https://wakatime.com/@mahmoud_hamdy" target="_blank">
     <img src="https://wakatime.com/static/img/wakatime.svg" width="40" height="40" alt="Wakatime" style="margin-right: 15px;" />
