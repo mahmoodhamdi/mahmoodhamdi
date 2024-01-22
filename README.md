@@ -17,7 +17,7 @@ Welcome to my coding space! I'm a passionate Flutter developer 🚀 currently na
 ## 🛠️ Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=photoshop,xd,figma,vscode,androidstudio,git,github,colab,jupyternotebook&theme=dark" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=postman,tensorflow,photoshop,xd,figma,vscode,androidstudio,git,github,&theme=dark" alt="Tools" />
 </p>
 
 ## 🌐 Connect with Me
