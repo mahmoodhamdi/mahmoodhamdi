@@ -11,13 +11,13 @@ Welcome to my coding space! I'm a passionate Flutter developer 🚀 currently na
 ## 💻 Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=dart,flutter,firebase,java,node,python,cpp&theme=dark" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=dart,flutter,firebase,nodejs,java,python,cpp&theme=dark" alt="Tech Stack" />
 </p>
 
 ## 🛠️ Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=postman,tensorflow,photoshop,xd,figma,vscode,androidstudio,git,github,&theme=dark" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postman,tensorflow,photoshop,xd,figma,vscode,androidstudio,git,github,&theme=dark" alt="Tools" />
 </p>
 
 ## 🌐 Connect with Me
