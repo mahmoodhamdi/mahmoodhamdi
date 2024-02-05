@@ -6,8 +6,7 @@
     <img src="https://readme-typing-svg.herokuapp.com/?lines=👋This+is+mahmood+hamdi...;Nice+to+meet+you!&center=true&size=30">
   </a>
 </h1> -->
-Welcome to my coding space! I'm a passionate Flutter developer 🚀 currently navigating the exciting world of Software Engineering 📚. I love turning ideas into reality using Dart/Flutter.
-
+Greetings! I'm a junior Flutter developer 🚀 passionate about transforming ideas into reality using Dart/Flutter. Check out my GitHub for a glimpse of my projects. Let's build something amazing together! 💻✨
 ## 💻 Tech Stack
 
 <p align="left">
