@@ -32,3 +32,10 @@ Greetings! I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about t
 -   ### Profile Views: ![Profile Views](https://komarev.com/ghpvc/?username=mahmoodhamdi&label=Profile%20views&color=0e75b6&style=flat)
 -   ### GitHub Streak: ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mahmoodhamdi&theme=tokyonight=true)
 -   ### Top Languages: ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mahmoodhamdi&layout=compact&theme=tokyonight=true)
+## ⏰ CodeTime Dashboard
+<p align="left">
+  <a href="https://codetime.dev/en/dashboard" target="_blank">
+    <img src="https://img.shields.io/badge/-CodeTime-00C7B7?style=flat-square&logo=codetime&logoColor=white" alt="CodeTime" />
+  </a>
+</p>
+
