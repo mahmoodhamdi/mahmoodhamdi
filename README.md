@@ -39,7 +39,7 @@ Greetings! I'm a junior Flutter developer 🚀 passionate about transforming ide
 ## 🔥 GitHub Stats
 -   ### Profile Views: ![Profile Views](https://komarev.com/ghpvc/?username=mahmoodhamdi&label=Profile%20views&color=0e75b6&style=flat)
 -   ### GitHub Streak: ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mahmoodhamdi)
--   ### Top Languages: ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mahmoodhamdi&true)
+-   ### Top Languages: ![Top Languages]([https://github-readme-stats.vercel.app/api/top-langs/?username=mahmoodhamdi&true](https://github-readme-stats.vercel.app/api?username=mahmoodhamdi&show_icons=true&theme=transparent))
 
 <!-- ## 📊 Weekly Development Stats
 
