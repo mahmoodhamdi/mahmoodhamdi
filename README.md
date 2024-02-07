@@ -17,9 +17,6 @@ Greetings! I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about t
   <a href="https://www.linkedin.com/in/mahmoud-hamdy-alashwah/" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" />
   </a>
-  <a href="https://wakatime.com/@mahmoud_hamdy" target="_blank">
-    <img src="https://img.shields.io/badge/-Wakatime-34B27E?style=flat-square&logo=Wakatime&logoColor=white" alt="Wakatime" style="margin-right: 15px;" />
-  </a>
   <a href="mailto:hmdy7486@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=Gmail&logoColor=white" alt="Gmail" style="margin-right: 15px;" />
   </a>
@@ -37,5 +34,9 @@ Greetings! I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about t
   <a href="https://codetime.dev/en/dashboard" target="_blank">
     <img src="https://img.shields.io/badge/-CodeTime-00C7B7?style=flat-square&logo=codetime&logoColor=white" alt="CodeTime" />
   </a>
+  <a href="https://wakatime.com/@mahmoud_hamdy" target="_blank">
+    <img src="https://img.shields.io/badge/-Wakatime-34B27E?style=flat-square&logo=Wakatime&logoColor=white" alt="Wakatime" style="margin-right: 15px;" />
+  </a>
+  
 </p>
 
