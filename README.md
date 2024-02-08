@@ -27,10 +27,7 @@ Greetings! I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about t
 
 ## ⏰ CodeTime Dashboard
 <p align="left">
-  <a href="https://codetime.dev/en/dashboard" target="_blank">
-    <img src="https://img.shields.io/badge/-CodeTime-2FBD75?style=flat-square&logo=codetime&logoColor=white&label=Check%20out%20my%20CodeTime%20Dashboard" />
-  </a>
-  <a href="https://wakatime.com/@mahmoud_hamdy" target="_blank">
+   <a href="https://wakatime.com/@mahmoud_hamdy" target="_blank">
     <img src="https://img.shields.io/badge/-Wakatime-00877B?style=flat-square&logo=Wakatime&logoColor=white&label=See%20my%20Wakatime%20stats" style="margin-right: 15px;" />
   </a>
 </p>
