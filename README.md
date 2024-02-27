@@ -33,5 +33,4 @@ Greetings! I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about t
 
 ## 🔥 GitHub Stats
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=mahmoodhamdi&theme=dark)](https://github.com/DenverCoder1/github-readme-streak-stats)
-![Mahmoud's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=mahmoud_hamdy&theme=dark)
 ![Profile Views](https://komarev.com/ghpvc/?username=mahmoodhamdi&label=Profile%20views&color=0A66C2&style=flat-square)
