@@ -29,4 +29,4 @@ Greetings! I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about t
 ![GitHub](https://skillicons.dev/icons?i=github&theme=dark&borderRadius=20)
 
 ## ⏰ CodeTime Dashboard
-[![See My Coding Time Dashboard](https://img.shields.io/badge/-Wakatime-00877B?style=flat-square&logo=Wakatime&logoColor=white&label=Wakatime%20Stats)](https://wakatime.com/@mahmoud_hamdy)
+[![wakatime](https://wakatime.com/badge/user/018c9017-daf8-45c1-be71-8b16fd238022.svg)](https://wakatime.com/@018c9017-daf8-45c1-be71-8b16fd238022)
