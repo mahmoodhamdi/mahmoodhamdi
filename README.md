@@ -40,7 +40,7 @@ Greetings! I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about t
 
 ## ⏰ CodeTime Dashboard
 
-[![Wakatime](https://wakatime.com/badge/user/018c9017-daf8-45c1-be71-8b16fd238022.svg)](https://wakatime.com/@018c9017-daf8-45c1-be71-8b16fd238022)
+[![Wakatime](https://wakatime.com/badge/user/018c9017-daf8-45c1-be71-8b16fd238022.svg)](https://wakatime.com/@018c9017-daf8-45c1-be71-8b16fd238022) ![](https://komarev.com/ghpvc/?username=mahmoodhamdi)
 
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=mahmoodhamdi&border_radius=7.5&theme=dark)](https://git.io/streak-stats)
