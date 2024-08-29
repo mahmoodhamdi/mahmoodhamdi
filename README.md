@@ -46,5 +46,3 @@ Greetings! I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about t
 [![GitHub Streak](https://streak-stats.demolab.com?user=mahmoodhamdi&border_radius=7.5&theme=nord)](https://git.io/streak-stats)
 
 ![Mahmoud's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mahmoodhamdi&show_icons=true&theme=nord&rank_icon=percentile)
-
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=nord)](https://github.com/piyushsuthar/github-readme-quotes)
