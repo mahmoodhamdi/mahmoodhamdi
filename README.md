@@ -41,6 +41,5 @@ Greetings! I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about t
 
 ![profile views](https://komarev.com/ghpvc/?username=mahmoodhamdi)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=mahmoodhamdi&border_radius=7.5&theme=nord)](https://git.io/streak-stats)
-
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=mahmoudhamdi&theme=onedark&short_numbers=true&date_format=j%20M%5B%20Y%5D&exclude_days=Fri)](https://git.io/streak-stats)
 ![Mahmoud's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mahmoodhamdi&show_icons=true&theme=nord&rank_icon=percentile)
