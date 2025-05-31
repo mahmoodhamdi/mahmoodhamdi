@@ -1,6 +1,6 @@
 # Hi there, I'm Mahmoud! 👨‍💻
 
-Greetings! I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about transforming ideas into reality using Dart/Flutter. Check out my GitHub for a glimpse of my projects. Let's build something amazing together! 💻✨
+I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about transforming ideas into reality using Dart/Flutter. Check out my GitHub for a glimpse of my projects. Let's build something amazing together! 💻✨
 
 ---
 
