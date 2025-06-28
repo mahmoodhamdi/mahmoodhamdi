@@ -15,10 +15,10 @@ I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about transforming
 ![Dart](https://skillicons.dev/icons?i=dart&theme=dark&borderRadius=20)
 ![Flutter](https://skillicons.dev/icons?i=flutter&theme=dark&borderRadius=20)
 ![Firebase](https://skillicons.dev/icons?i=firebase&theme=dark&borderRadius=20)
-![Node.js](https://skillicons.dev/icons?i=nodejs&theme=dark&borderRadius=20)
-![Java](https://skillicons.dev/icons?i=java&theme=dark&borderRadius=20)
 ![Python](https://skillicons.dev/icons?i=python&theme=dark&borderRadius=20)
-![C++](https://skillicons.dev/icons?i=cpp&theme=dark&borderRadius=20)
+![flask](https://skillicons.dev/icons?i=flask&theme=dark&borderRadius=20)
+![fastapi](https://skillicons.dev/icons?i=fastapi&theme=dark&borderRadius=20)
+![Java](https://skillicons.dev/icons?i=java&theme=dark&borderRadius=20)
 
 ## 🛠️ Tools
 
