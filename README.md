@@ -22,7 +22,9 @@ I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about transforming
 
 ## 🛠️ Tools
 
+![sql](https://skillicons.dev/icons?i=sql&theme=dark&borderRadius=20)
 ![MongoDB](https://skillicons.dev/icons?i=mongodb&theme=dark&borderRadius=20)
+![Sqlite](https://skillicons.dev/icons?i=sqlite&theme=dark&borderRadius=20)
 ![Postman](https://skillicons.dev/icons?i=postman&theme=dark&borderRadius=20)
 ![TensorFlow](https://skillicons.dev/icons?i=tensorflow&theme=dark&borderRadius=20)
 ![Photoshop](https://skillicons.dev/icons?i=photoshop&theme=dark&borderRadius=20)
@@ -32,8 +34,7 @@ I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about transforming
 ![Android Studio](https://skillicons.dev/icons?i=androidstudio&theme=dark&borderRadius=20)
 ![Git](https://skillicons.dev/icons?i=git&theme=dark&borderRadius=20)
 ![GitHub](https://skillicons.dev/icons?i=github&theme=dark&borderRadius=20)
-![Sqlite](https://skillicons.dev/icons?i=sqlite&theme=dark&borderRadius=20)
-![Sqlalchemy](https://skillicons.dev/icons?i=sqlalchemy&theme=dark&borderRadius=20)
+
 
 ## ⏰ CodeTime Dashboard
 
