@@ -33,6 +33,7 @@ I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about transforming
 ![Git](https://skillicons.dev/icons?i=git&theme=dark&borderRadius=20)
 ![GitHub](https://skillicons.dev/icons?i=github&theme=dark&borderRadius=20)
 ![Sqlite](https://skillicons.dev/icons?i=sqlite&theme=dark&borderRadius=20)
+![Sqlalchemy](https://skillicons.dev/icons?i=sqlalchemy&theme=dark&borderRadius=20)
 
 ## ⏰ CodeTime Dashboard
 
