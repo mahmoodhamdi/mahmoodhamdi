@@ -16,8 +16,8 @@ I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about transforming
 ![Flutter](https://skillicons.dev/icons?i=flutter&theme=dark&borderRadius=20)
 ![Firebase](https://skillicons.dev/icons?i=firebase&theme=dark&borderRadius=20)
 ![Python](https://skillicons.dev/icons?i=python&theme=dark&borderRadius=20)
-![flask](https://skillicons.dev/icons?i=flask&theme=dark&borderRadius=20)
-![fastapi](https://skillicons.dev/icons?i=fastapi&theme=dark&borderRadius=20)
+![Flask](https://skillicons.dev/icons?i=flask&theme=dark&borderRadius=20)
+![Fastapi](https://skillicons.dev/icons?i=fastapi&theme=dark&borderRadius=20)
 ![Java](https://skillicons.dev/icons?i=java&theme=dark&borderRadius=20)
 
 ## 🛠️ Tools
@@ -32,6 +32,7 @@ I'm Mahmoud Hamdy, a junior Flutter developer 🚀 passionate about transforming
 ![Android Studio](https://skillicons.dev/icons?i=androidstudio&theme=dark&borderRadius=20)
 ![Git](https://skillicons.dev/icons?i=git&theme=dark&borderRadius=20)
 ![GitHub](https://skillicons.dev/icons?i=github&theme=dark&borderRadius=20)
+![Sqlite](https://skillicons.dev/icons?i=sqlite&theme=dark&borderRadius=20)
 
 ## ⏰ CodeTime Dashboard
 
