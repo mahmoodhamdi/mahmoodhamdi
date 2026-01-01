@@ -223,34 +223,6 @@ Docker          ██████████████░░░░░░░�
 
 ---
 
-<!-- Coding Time -->
-## <img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="30"> Weekly Coding Stats
-
-<div align="center">
-
-[![Wakatime](https://wakatime.com/badge/user/018c9017-daf8-45c1-be71-8b16fd238022.svg?style=for-the-badge)](https://wakatime.com/@018c9017-daf8-45c1-be71-8b16fd238022)
-
-<!--START_SECTION:waka-->
-
-```dart
-From: 24 December 2025 - To: 31 December 2025
-
-Total Time: 16 hrs 37 mins
-
-Markdown     11 hrs 48 mins  █████████████████▒░░░░░░░   68.99 %
-Dart         3 hrs 29 mins   █████░░░░░░░░░░░░░░░░░░░░   20.43 %
-Other        28 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.81 %
-TypeScript   20 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.99 %
-JSON         18 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.76 %
-YAML         17 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.71 %
-```
-
-<!--END_SECTION:waka-->
-
-</div>
-
----
-
 <!-- Availability Section -->
 ## <img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="30"> Let's Connect!
 
@@ -331,9 +303,8 @@ YAML         17 mins         ▒░░░░░░░░░░░░░░░░
 ---
 
 <!-- Metrics -->
-<details>
-<summary><b>📈 Detailed Metrics</b></summary>
-<br>
+## <img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="30"> Detailed Metrics
+
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mahmoodhamdi&theme=tokyonight" alt="Profile Details"/>
   <br/>
@@ -343,7 +314,6 @@ YAML         17 mins         ▒░░░░░░░░░░░░░░░░
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mahmoodhamdi&theme=tokyonight" alt="Stats"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mahmoodhamdi&theme=tokyonight&utcOffset=2" alt="Productive Time"/>
 </div>
-</details>
 
 ---
 
