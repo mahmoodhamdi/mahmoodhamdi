@@ -192,12 +192,12 @@ Docker          ██████████████░░░░░░░�
 
 <!-- Stats Cards Row -->
 <p>
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mahmoodhamdi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9&ring_color=00D9FF" alt="GitHub Stats"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=mahmoodhamdi&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF&sideNums=00D9FF&currStreakNum=FF6B6B&sideLabels=C9D1D9" alt="Streak Stats"/>
+  <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=mahmoodhamdi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9&ring_color=00D9FF" alt="GitHub Stats"/>
+  <img width="49%" src="https://streak-stats.demolab.com?user=mahmoodhamdi&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF&sideNums=00D9FF&currStreakNum=FF6B6B&sideLabels=C9D1D9" alt="Streak Stats"/>
 </p>
 
 <!-- Top Languages -->
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahmoodhamdi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9&langs_count=8" alt="Top Languages"/>
+<img width="40%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=mahmoodhamdi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9&langs_count=8" alt="Top Languages"/>
 
 <!-- Activity Graph -->
 <br/>
@@ -212,11 +212,11 @@ Docker          ██████████████░░░░░░░�
 
 <div align="center">
 
-<a href="https://github.com/mahmoodhamdi/escore">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=mahmoodhamdi&repo=OrangeDigitalCenterEgyptFlutterBootcamp&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=FF6B6B" />
+<a href="https://github.com/mahmoodhamdi/OrangeDigitalCenterEgyptFlutterBootcamp">
+  <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=mahmoodhamdi&repo=OrangeDigitalCenterEgyptFlutterBootcamp&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=FF6B6B" />
 </a>
-<a href="https://github.com/mahmoodhamdi">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=mahmoodhamdi&repo=mahmoodhamdi&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=FF6B6B" />
+<a href="https://github.com/mahmoodhamdi/mahmoodhamdi">
+  <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=mahmoodhamdi&repo=mahmoodhamdi&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=FF6B6B" />
 </a>
 
 </div>
