@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a GitHub profile repository (`mahmoodhamdi/mahmoodhamdi`). It contains a special `README.md` that displays on the owner's GitHub profile page.
+This is a GitHub profile repository (`mahmoodhamdi/mahmoodhamdi`). It contains a special `README.md` that displays on the owner's GitHub profile page. The profile is heavily visual with animated SVGs, stats badges, and auto-generated contribution graphs.
 
 ## Repository Structure
 
@@ -23,19 +23,26 @@ mahmoodhamdi/
 ## GitHub Actions Workflows
 
 ### Snake Animation (`snake.yml`)
+
 - Generates snake animation from contribution graph
 - Runs every 12 hours and on push to main
 - Outputs to `output` branch as `github-snake.svg` and `github-snake-dark.svg`
 
 ### WakaTime Stats (`waka-readme.yml`)
-- Updates coding stats in README
+
+- **Status:** Not currently used in README (no markers present)
+- Configured to update coding stats in README between `<!--START_SECTION:waka-->` and `<!--END_SECTION:waka-->` markers
 - Runs daily at midnight UTC
 - **Requires:** `WAKATIME_API_KEY` secret (get from wakatime.com/settings/api-key)
+- Configuration: Shows last 7 days, top 6 languages, uses Dart syntax highlighting with block characters (░▒▓█)
 
 ### 3D Profile (`profile-3d.yml`)
-- Generates 3D contribution graph
-- Runs daily and on push to main
-- Outputs to `profile-3d-contrib/` directory
+
+- Generates 3D contribution graph using `yoshi389111/github-profile-3d-contrib@0.7.1`
+- Runs daily at midnight UTC and on push to main
+- Outputs to `profile-3d-contrib/` directory (multiple theme variants generated)
+- Auto-commits generated SVG files with bot credentials (github-actions[bot])
+- README displays the `profile-night-rainbow.svg` variant
 
 ## Key Details
 
@@ -44,9 +51,75 @@ mahmoodhamdi/
 - Location: Egypt
 - Contact: hmdy7486@gmail.com, +201019793768
 
-## When Modifying
+## README.md Structure & Content
 
-- Preserve Tokyo Night theme consistency (color: `#00D9FF`, accent: `#FF6B6B`)
-- Test image/badge URLs before committing
-- Run workflows manually after changes to verify they work
-- Keep the Arabic/MENA market focus in content
+The README is organized into the following sections:
+
+1. **Header**: Name, title, and social badges (LinkedIn, Email, WhatsApp, GitHub)
+2. **About Me**: Brief bio highlighting Full-Stack specialization, current work at ROV GROUP/Escore, and MENA region focus
+3. **Core Competencies**: Three main areas - Mobile Development, Backend Engineering, Data & Infrastructure
+4. **Technical Stack**: Badge-based display of languages and frameworks/tools
+5. **GitHub Statistics**: Stats cards, streak stats, top languages (using github-readme-stats)
+6. **Activity**: Snake animation from contribution graph (auto-generated)
+7. **Featured Projects**: Pinned repository cards for select projects
+8. **Services Offered**: List of professional services (Mobile, Backend, Database, Web Scraping, Consultation)
+9. **Contribution Graph**: 3D contribution visualization (auto-generated)
+10. **Let's Connect**: Contact information footer with profile view counter
+
+All external service URLs use a consistent dark theme with cyan (`#00D9FF`) and red (`#FF6B6B`) accent colors.
+
+## Common Modification Tasks
+
+### Updating Profile Content
+
+- **Tech stack badges**: Update the language and framework badges in the "Technical Stack" section
+- **Contact info**: Update social badges in header and "Let's Connect!" section footer
+- **Core competencies**: Modify the bullet points under Mobile Development, Backend Engineering, and Data & Infrastructure
+- **Services offered**: Edit the bulleted list in "Services Offered" section
+- **Featured projects**: Update pinned repo cards by changing repository names in the GitHub stats API URLs
+- **Current work**: Update "About Me" section to reflect current position and focus areas
+
+### Workflow Management
+
+- **Manually trigger workflows**: Use `workflow_dispatch` event in GitHub Actions UI
+- **Test workflow changes**: Push to a test branch first, then merge to main
+- **Debug failed workflows**: Check Actions tab, verify secrets are set correctly
+
+### Theme Consistency
+
+- Primary color: `#00D9FF` (cyan/teal) - used for titles and icons
+- Accent color: `#FF6B6B` (red/coral) - used for highlights and fire effects
+- Background: `#0D1117` (dark GitHub background)
+- Text color: `#C9D1D9` (light gray)
+- Theme: Dark theme with custom color palette (similar to Tokyo Night)
+- All GitHub stats use `theme=dark` with `hide_border=true` and custom colors
+
+## External Services Used
+
+### GitHub Stats APIs
+
+- **GitHub Stats**: `github-readme-stats-git-masterrstaa-rickstaa.vercel.app`
+  - Used for: Main stats card, top languages, pinned repo cards
+  - Configured with custom theme colors
+- **Streak Stats**: `streak-stats.demolab.com`
+  - Configured with dark background and custom cyan/red color scheme
+- **Profile Views**: `komarev.com/ghpvc`
+  - Simple view counter badge in cyan color
+- **Snake Animation**: Generated by `Platane/snk/svg-only@v3` action
+  - Stored in `output` branch (light and dark variants)
+- **3D Contribution**: Generated by `yoshi389111/github-profile-3d-contrib@0.7.1` action
+  - Multiple themes generated, `profile-night-rainbow.svg` used in README
+
+### Badge Services
+
+- **Social/Tech badges**: `img.shields.io` - standard badge format with custom colors
+- All badges use `style=flat` for consistent appearance
+
+## Important Guidelines
+
+- Test all image/badge URLs before committing (they break frequently)
+- The `output` branch contains snake animation SVGs only - do not modify directly
+- The `profile-3d-contrib/` directory is auto-generated - changes will be overwritten
+- Keep focus on Arabic/MENA market and regional relevance
+- All workflows run automatically - manual intervention rarely needed
+- When adding WakaTime stats, add markers `<!--START_SECTION:waka-->` and `<!--END_SECTION:waka-->` to README
