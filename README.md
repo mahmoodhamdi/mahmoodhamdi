@@ -77,7 +77,7 @@ Full-Stack Software Engineer based in Egypt, building scalable mobile and backen
 
 ## Contributions
 
-[![Contribution Stats](https://readme-contribution-stats.aman-kumar-connect.workers.dev/?type=repos&username=mahmoodhamdi&limit=8&prs=true&issues=true)](https://github.com/amankumarconnect/readme-contribution-stats)
+[![Contribution Stats](https://readme-contribution-stats.aman-kumar-connect.workers.dev/?type=repos&username=mahmoodhamdi&limit=10&prs=true&issues=true)](https://github.com/amankumarconnect/readme-contribution-stats)
 
 <div align="center">
 
