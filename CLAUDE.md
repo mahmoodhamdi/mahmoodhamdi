@@ -57,7 +57,8 @@ When changing or adding visual elements, prefer these proven-working services:
 |---|---|---|
 | Animated text intro | `readme-typing-svg.demolab.com` | Pipe-separated `lines=` parameter |
 | Tech stack icons | `skillicons.dev` | One `?i=...` URL per category, comma-separated |
-| Stats / pin / top-langs cards | `github-readme-stats.hackclub.dev` | **Use this mirror, not `github-readme-stats.vercel.app`** — the upstream Vercel deployment was paused (`DEPLOYMENT_PAUSED` errors) when this README was redesigned. The HackClub mirror is API-compatible. |
+| Stats / top-langs cards | `github-readme-stats.hackclub.dev` | **Use this mirror, not `github-readme-stats.vercel.app`** — the upstream Vercel deployment was paused (`DEPLOYMENT_PAUSED`) when this README was redesigned. The HackClub mirror is API-compatible for stats and top-langs. |
+| **Pin cards** (per-repo) | ⚠️ Avoid — both deployments fail | The HackClub mirror's `/api/pin/` endpoint requires a `PAT_1` GitHub token env var that's not configured (renders SVG that says "No GitHub API tokens found"). The canonical Vercel deployment is paused. **Use a custom table with `img.shields.io/github/stars/...` and `.../languages/top/...` badges instead** — see the Featured Projects section in `README.md`. |
 | Streak stats | `streak-stats.demolab.com` | |
 | Trophies | `github-profile-trophy.vercel.app` | |
 | Activity graph | `github-readme-activity-graph.vercel.app` | |
@@ -71,7 +72,7 @@ If `github-readme-stats.hackclub.dev` ever returns errors, retry the canonical `
 ## Editing Guidance
 
 - **Notable Merged Contributions table** is the single highest-credibility section. To add new entries, run `gh search prs --author=mahmoodhamdi --merged --limit 100 --json repository,title,url,number` and insert any new merged PRs to *external* repos (filter out `mahmoodhamdi/*` self-owned ones). Sort by repo stargazer count descending. The table currently lists 11 PRs across 8 projects (~304k combined stars).
-- **Featured Projects** are hard-coded to six specific repos. When higher-star or more-impressive repos appear, swap the `repo=` parameters in the pin URLs. Currently featured: `Flutter-Developer-Interview-Questions` (86★, top draw), `TStore` (production Flutter e-commerce), `flutter_google_workspace_integration`, `mwm` (full-stack bilingual CMS), `esports-flask`, `Markdown-to-PDF`.
+- **Featured Projects** are hard-coded as a 2×3 manual table — each cell links to a repo and pulls live stars/forks/language counts via shields.io badges (no broken pin-card service). When higher-star or more-impressive repos appear, swap the repo references in all 4 places per cell (heading link, 2-3 badge URLs, description). Currently featured: `Flutter-Developer-Interview-Questions` (top draw), `TStore` (production Flutter e-commerce), `flutter_google_workspace_integration`, `mwm` (bilingual CMS), `esports-flask`, `Markdown-to-PDF`.
 - **Currently Building section** lists 3 active projects in a table. Update when the project mix meaningfully changes — keep one work project (Escore at ROV GROUP), one own SaaS, one open-source headliner.
 - **About-section numbers and stargazer counts in the typing SVG / About list** ("175+ repositories", "140+ stars", "Zustand 58k", "Dify 141k", etc.) are point-in-time snapshots — refresh them quarterly or when the deltas exceed ~10%.
 - **Typing SVG** lives in the hero `<img src="https://readme-typing-svg.demolab.com?...">` — lines are semicolon-separated and URL-encoded. Spaces become `+`, `·` is `%C2%B7`, `—` is `%E2%80%94`, `'` stays literal.
