@@ -189,46 +189,90 @@ JSON          14 mins               ▒░░░░░░░░░░░░░�
 
 ## 🌟 Featured Projects
 
-<div align="center">
-
 <table>
 <tr>
-<td width="50%">
-<a href="https://github.com/mahmoodhamdi/Flutter-Developer-Interview-Questions">
-<img src="https://github-readme-stats.hackclub.dev/api/pin/?username=mahmoodhamdi&repo=Flutter-Developer-Interview-Questions&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=FF6B6B&text_color=C9D1D9" alt="Flutter Developer Interview Questions" />
-</a>
+<td valign="top" width="50%">
+
+### 📚 [Flutter-Developer-Interview-Questions](https://github.com/mahmoodhamdi/Flutter-Developer-Interview-Questions)
+
+[![stars](https://img.shields.io/github/stars/mahmoodhamdi/Flutter-Developer-Interview-Questions?style=flat-square&color=00D9FF&labelColor=0D1117&label=%E2%98%85)](https://github.com/mahmoodhamdi/Flutter-Developer-Interview-Questions/stargazers)
+[![forks](https://img.shields.io/github/forks/mahmoodhamdi/Flutter-Developer-Interview-Questions?style=flat-square&color=FF6B6B&labelColor=0D1117&label=forks)](https://github.com/mahmoodhamdi/Flutter-Developer-Interview-Questions/network)
+[![lang](https://img.shields.io/github/languages/top/mahmoodhamdi/Flutter-Developer-Interview-Questions?style=flat-square&color=9333EA&labelColor=0D1117)](https://github.com/mahmoodhamdi/Flutter-Developer-Interview-Questions)
+
+Comprehensive interview prep covering **Dart, OOP, Flutter internals, DSA, SOLID principles** — the most-starred resource in the repo.
+
+`#flutter` `#interview` `#educational`
+
 </td>
-<td width="50%">
-<a href="https://github.com/mahmoodhamdi/TStore">
-<img src="https://github-readme-stats.hackclub.dev/api/pin/?username=mahmoodhamdi&repo=TStore&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=FF6B6B&text_color=C9D1D9" alt="TStore" />
-</a>
+<td valign="top" width="50%">
+
+### 🛒 [TStore](https://github.com/mahmoodhamdi/TStore)
+
+[![stars](https://img.shields.io/github/stars/mahmoodhamdi/TStore?style=flat-square&color=00D9FF&labelColor=0D1117&label=%E2%98%85)](https://github.com/mahmoodhamdi/TStore/stargazers)
+[![forks](https://img.shields.io/github/forks/mahmoodhamdi/TStore?style=flat-square&color=FF6B6B&labelColor=0D1117&label=forks)](https://github.com/mahmoodhamdi/TStore/network)
+[![lang](https://img.shields.io/github/languages/top/mahmoodhamdi/TStore?style=flat-square&color=9333EA&labelColor=0D1117)](https://github.com/mahmoodhamdi/TStore)
+
+Production-grade Flutter e-commerce — **Clean Architecture, BLoC, 219 unit tests**, Supabase backend, CI/CD with Fastlane.
+
+`#flutter` `#supabase` `#clean-architecture`
+
 </td>
 </tr>
 <tr>
-<td width="50%">
-<a href="https://github.com/mahmoodhamdi/flutter_google_workspace_integration">
-<img src="https://github-readme-stats.hackclub.dev/api/pin/?username=mahmoodhamdi&repo=flutter_google_workspace_integration&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=FF6B6B&text_color=C9D1D9" alt="Flutter Google Workspace Integration" />
-</a>
+<td valign="top" width="50%">
+
+### 🔌 [flutter_google_workspace_integration](https://github.com/mahmoodhamdi/flutter_google_workspace_integration)
+
+[![stars](https://img.shields.io/github/stars/mahmoodhamdi/flutter_google_workspace_integration?style=flat-square&color=00D9FF&labelColor=0D1117&label=%E2%98%85)](https://github.com/mahmoodhamdi/flutter_google_workspace_integration/stargazers)
+[![lang](https://img.shields.io/github/languages/top/mahmoodhamdi/flutter_google_workspace_integration?style=flat-square&color=9333EA&labelColor=0D1117)](https://github.com/mahmoodhamdi/flutter_google_workspace_integration)
+
+Unified Flutter interface for **Google Calendar, Drive, Docs, Sheets, Keep, Gmail, Analytics, Maps & Meet** — one app, the whole Workspace.
+
+`#flutter` `#google-apis` `#integration`
+
 </td>
-<td width="50%">
-<a href="https://github.com/mahmoodhamdi/mwm">
-<img src="https://github-readme-stats.hackclub.dev/api/pin/?username=mahmoodhamdi&repo=mwm&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=FF6B6B&text_color=C9D1D9" alt="MWM Software Solutions" />
-</a>
+<td valign="top" width="50%">
+
+### 🏢 [mwm](https://github.com/mahmoodhamdi/mwm)
+
+[![lang](https://img.shields.io/github/languages/top/mahmoodhamdi/mwm?style=flat-square&color=9333EA&labelColor=0D1117)](https://github.com/mahmoodhamdi/mwm)
+[![code-size](https://img.shields.io/github/languages/code-size/mahmoodhamdi/mwm?style=flat-square&color=00D9FF&labelColor=0D1117)](https://github.com/mahmoodhamdi/mwm)
+
+**MWM Software Solutions** — bilingual (AR/EN) corporate site & CMS with 33+ portfolio projects, blog, careers, admin dashboard. **Next.js 14 + Express + MongoDB**.
+
+`#nextjs` `#expressjs` `#cms` `#bilingual`
+
 </td>
 </tr>
 <tr>
-<td width="50%">
-<a href="https://github.com/mahmoodhamdi/esports-flask">
-<img src="https://github-readme-stats.hackclub.dev/api/pin/?username=mahmoodhamdi&repo=esports-flask&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=FF6B6B&text_color=C9D1D9" alt="Esports Flask API" />
-</a>
+<td valign="top" width="50%">
+
+### 🎮 [esports-flask](https://github.com/mahmoodhamdi/esports-flask)
+
+[![stars](https://img.shields.io/github/stars/mahmoodhamdi/esports-flask?style=flat-square&color=00D9FF&labelColor=0D1117&label=%E2%98%85)](https://github.com/mahmoodhamdi/esports-flask/stargazers)
+[![lang](https://img.shields.io/github/languages/top/mahmoodhamdi/esports-flask?style=flat-square&color=9333EA&labelColor=0D1117)](https://github.com/mahmoodhamdi/esports-flask)
+
+Flask REST API for the **Esports World Cup** — tournaments, teams, players, matches & news. Live data scraping, advanced search, full admin interface, OpenAPI docs.
+
+`#flask` `#api` `#scraping` `#esports`
+
 </td>
-<td width="50%">
-<a href="https://github.com/mahmoodhamdi/Markdown-to-PDF">
-<img src="https://github-readme-stats.hackclub.dev/api/pin/?username=mahmoodhamdi&repo=Markdown-to-PDF&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=FF6B6B&text_color=C9D1D9" alt="Markdown to PDF" />
-</a>
+<td valign="top" width="50%">
+
+### 📄 [Markdown-to-PDF](https://github.com/mahmoodhamdi/Markdown-to-PDF)
+
+[![stars](https://img.shields.io/github/stars/mahmoodhamdi/Markdown-to-PDF?style=flat-square&color=00D9FF&labelColor=0D1117&label=%E2%98%85)](https://github.com/mahmoodhamdi/Markdown-to-PDF/stargazers)
+[![lang](https://img.shields.io/github/languages/top/mahmoodhamdi/Markdown-to-PDF?style=flat-square&color=9333EA&labelColor=0D1117)](https://github.com/mahmoodhamdi/Markdown-to-PDF)
+
+Production-ready Markdown→PDF converter with **live preview, multiple themes, RTL support, batch conversion**. Built with Next.js 14 + TypeScript + Tailwind.
+
+`#nextjs` `#typescript` `#i18n` `#rtl`
+
 </td>
 </tr>
 </table>
+
+<div align="center">
 
 <a href="https://github.com/mahmoodhamdi?tab=repositories"><strong>→ Browse all 175 repositories</strong></a>
 
