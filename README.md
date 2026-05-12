@@ -43,8 +43,8 @@
 
 Full-Stack Software Engineer based in **Egypt**, building scalable mobile and backend systems. Currently engineering **Escore** at **ROV GROUP** — a real-time esports platform serving Arabic-speaking markets across the MENA region.
 
-- 🛠️ **175+ public repositories** · **140+ community stars** on personal open-source work
-- 🌐 **Open-source contributor** — merged PRs in **[Zustand](https://github.com/pmndrs/zustand)** (58k★), **[Payload CMS](https://github.com/payloadcms/payload)** (42k★), **[Joi](https://github.com/hapijs/joi)** (21k★), **[dotenv](https://github.com/motdotla/dotenv)** (20k★), **[Dify](https://github.com/langgenius/dify)** (141k★) and more
+- 📈 **GitHub Rank A** · **854 PRs** · **3,103 commits** · **69 projects contributed to** · **176 public repos** · **140+ stars** on personal work
+- 🌐 **Open-source contributor** — merged PRs in **[Dify](https://github.com/langgenius/dify)** (141k★), **[Zustand](https://github.com/pmndrs/zustand)** (58k★), **[Payload CMS](https://github.com/payloadcms/payload)** (42k★), **[nanoid](https://github.com/ai/nanoid)** (27k★), **[Joi](https://github.com/hapijs/joi)** (21k★), **[dotenv](https://github.com/motdotla/dotenv)** (20k★), **[Helmet](https://github.com/helmetjs/helmet)** (11k★) and more
 - 🌍 Specialize in products built for the **MENA region** with bilingual (AR/EN) and **RTL-first** design
 - 🎯 Currently focused on **Cloud Architecture, DevOps & AI/ML integration**
 - 💼 **Open to freelance, contract & full-time roles** — remote, hybrid, or on-site
@@ -120,20 +120,26 @@ Clean Architecture · 219 unit tests · Auth, cart, wishlist, orders, reviews, c
 
 ## 📊 GitHub Statistics
 
+<!--
+  Snapshot taken 2026-05-12 from the working GRS endpoint
+  (gh-readme-stats.vercel.app/api?username=mahmoodhamdi). Refresh
+  these badges quarterly. Static infographic instead of dynamic
+  cards because the dynamic stats endpoints rendered as broken
+  images via GitHub's camo proxy (intermittent 504s) — see CLAUDE.md.
+-->
+
 <div align="center">
 
-<table>
-<tr>
-<td>
-<img src="https://gh-readme-stats.vercel.app/api?username=mahmoodhamdi&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Mahmoud's GitHub Stats" />
-</td>
-<td>
-<img src="https://streak-stats.demolab.com?user=mahmoodhamdi&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-</td>
-</tr>
-</table>
+<a href="https://github.com/mahmoodhamdi"><img src="https://img.shields.io/badge/GitHub_Rank-A-7AA2F7?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=7AA2F7" alt="GitHub Rank A" /></a>
+<a href="https://github.com/pulls?q=is%3Apr+author%3Amahmoodhamdi"><img src="https://img.shields.io/badge/Total_PRs-854-BB9AF7?style=for-the-badge&labelColor=0D1117&logo=git&logoColor=BB9AF7" alt="Total PRs" /></a>
+<a href="https://github.com/mahmoodhamdi"><img src="https://img.shields.io/badge/Total_Commits-3%2C103-7AA2F7?style=for-the-badge&labelColor=0D1117" alt="Total Commits" /></a>
+<a href="https://github.com/mahmoodhamdi?tab=stars"><img src="https://img.shields.io/badge/Stars_Earned-171-9ECE6A?style=for-the-badge&labelColor=0D1117&logo=apachespark&logoColor=9ECE6A" alt="Stars Earned" /></a>
+<a href="https://github.com/issues?q=is%3Aissue+author%3Amahmoodhamdi"><img src="https://img.shields.io/badge/Issues_Opened-28-F7768E?style=for-the-badge&labelColor=0D1117" alt="Issues Opened" /></a>
+<a href="https://github.com/mahmoodhamdi?tab=repositories"><img src="https://img.shields.io/badge/Projects_Contributed_To-69-BB9AF7?style=for-the-badge&labelColor=0D1117" alt="Projects Contributed To" /></a>
 
-<img src="https://gh-readme-stats.vercel.app/api/top-langs/?username=mahmoodhamdi&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&langs_count=10" alt="Top Languages" />
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com?user=mahmoodhamdi&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
 
 </div>
 
@@ -279,14 +285,16 @@ Specific PRs landed in production open-source projects (sorted by repo prominenc
 | **[pmndrs/zustand](https://github.com/pmndrs/zustand)** | 58k★ | `test`: expand React subscribe test coverage | ![test](https://img.shields.io/badge/test-9ECE6A?style=flat-square&labelColor=0D1117) | [#3442](https://github.com/pmndrs/zustand/pull/3442) |
 | **[payloadcms/payload](https://github.com/payloadcms/payload)** | 42k★ | `fix(richtext-lexical)`: prevent invalid h0 heading nodes when all heading sizes are disabled | ![fix](https://img.shields.io/badge/fix-F7768E?style=flat-square&labelColor=0D1117) | [#16090](https://github.com/payloadcms/payload/pull/16090) |
 | **[payloadcms/payload](https://github.com/payloadcms/payload)** | 42k★ | `fix`: use `instanceof` instead of constructor name in `formatErrors` | ![fix](https://img.shields.io/badge/fix-F7768E?style=flat-square&labelColor=0D1117) | [#16089](https://github.com/payloadcms/payload/pull/16089) |
+| **[ai/nanoid](https://github.com/ai/nanoid)** | 27k★ | `docs`: fix outdated size and links in README translations | ![docs](https://img.shields.io/badge/docs-A9B1D6?style=flat-square&labelColor=0D1117) | [#570](https://github.com/ai/nanoid/pull/570) |
 | **[hapijs/joi](https://github.com/hapijs/joi)** | 21k★ | `fix`: improve JSON Schema conversion for `number.port()` and `number.sign()` | ![fix](https://img.shields.io/badge/fix-F7768E?style=flat-square&labelColor=0D1117) | [#3107](https://github.com/hapijs/joi/pull/3107) |
 | **[motdotla/dotenv](https://github.com/motdotla/dotenv)** | 20k★ | `fix`: use `DotenvPopulateOptions` for `populate()` third argument type | ![fix](https://img.shields.io/badge/fix-F7768E?style=flat-square&labelColor=0D1117) | [#998](https://github.com/motdotla/dotenv/pull/998) |
 | **[debug-js/debug](https://github.com/debug-js/debug)** | 11k★ | `docs`: remove broken links to deleted examples directory | ![docs](https://img.shields.io/badge/docs-A9B1D6?style=flat-square&labelColor=0D1117) | [#1026](https://github.com/debug-js/debug/pull/1026) |
+| **[helmetjs/helmet](https://github.com/helmetjs/helmet)** | 11k★ | `docs`: update X-Frame-Options ALLOW-FROM link to FAQ | ![docs](https://img.shields.io/badge/docs-A9B1D6?style=flat-square&labelColor=0D1117) | [#527](https://github.com/helmetjs/helmet/pull/527) |
 | **[pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp)** | 8.5k★ | `docs`: fix incorrect token type in custom path example | ![docs](https://img.shields.io/badge/docs-A9B1D6?style=flat-square&labelColor=0D1117) | [#429](https://github.com/pillarjs/path-to-regexp/pull/429) |
 | **[pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp)** | 8.5k★ | `test`: add coverage for `trailing` option set to `false` | ![test](https://img.shields.io/badge/test-9ECE6A?style=flat-square&labelColor=0D1117) | [#428](https://github.com/pillarjs/path-to-regexp/pull/428) |
 | **[jshttp/cookie](https://github.com/jshttp/cookie)** | 1.5k★ | `test`: expand `stringifyCookie` coverage and add roundtrip tests | ![test](https://img.shields.io/badge/test-9ECE6A?style=flat-square&labelColor=0D1117) | [#266](https://github.com/jshttp/cookie/pull/266) |
 
-> **~304k combined stars** across these projects. [→ See all merged PRs by mahmoodhamdi](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Amahmoodhamdi+archived%3Afalse)
+> **~340k combined stars** across these projects. [→ See all merged PRs by mahmoodhamdi](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Amahmoodhamdi+archived%3Afalse)
 
 ---
 
