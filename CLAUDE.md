@@ -14,69 +14,81 @@ Three workflows run on schedule and produce assets in different locations. Knowi
 
 | Workflow | Schedule | Writes to | Used by README? |
 |---|---|---|---|
-| `.github/workflows/snake.yml` | every 12h + push to main | `output` branch (`github-snake.svg`, `github-snake-dark.svg`) | **Yes** — embedded via `<picture>` block in the Contribution Activity section, served from `raw.githubusercontent.com/.../output/...` |
+| `.github/workflows/snake.yml` | every 12h + push to main | `output` branch (`github-snake.svg`, `github-snake-dark.svg`) | **No** — kept for future use but not embedded. The owner's contribution graph was too sparse to render a satisfying snake; section was removed on user request. Re-embed via `<picture>` referencing `raw.githubusercontent.com/.../output/github-snake-dark.svg` once the graph fills out. |
 | `.github/workflows/profile-3d.yml` | daily 00:00 UTC + push to main | `profile-3d-contrib/*.svg` on `main` (auto-commits as github-actions[bot]) | Yes — `profile-night-rainbow.svg` |
-| `.github/workflows/waka-readme.yml` | daily 00:00 UTC | between `<!--START_SECTION:waka-->` / `<!--END_SECTION:waka-->` in `README.md` (markers present in the "Weekly Coding Activity" subsection) | **Yes** once `WAKATIME_API_KEY` secret is added — the section title renders empty until then. To enable: get an API key from https://wakatime.com/settings/api-key, then add it as a repo Secret named `WAKATIME_API_KEY` (Settings → Secrets and variables → Actions → New repository secret). |
+| `.github/workflows/waka-readme.yml` | daily 00:00 UTC | between `<!--START_SECTION:waka-->` / `<!--END_SECTION:waka-->` markers in `README.md` | **Yes** — `WAKATIME_API_KEY` secret is set; section auto-populates with last-7-days stats. |
 
 Implications:
 - **Never hand-edit files in `profile-3d-contrib/`** — `profile-3d.yml` overwrites the directory and commits the result.
 - **Never push to the `output` branch directly** — `snake.yml` owns it.
-- The README's `<picture>` block already serves both light (`github-snake.svg`) and dark (`github-snake-dark.svg`) variants based on viewer preference.
+
+## Theme Tokens (Tokyo Night, muted)
+
+Switched from loud cyan/coral to muted Tokyo Night on user feedback ("اللون فاقع"). All badges and SVG services now use this palette:
+
+- Primary: `#7AA2F7` (soft sky blue) — was `#00D9FF`
+- Accent: `#BB9AF7` (lavender) — was `#FF6B6B` for "accent" use
+- Sage: `#9ECE6A` — for positive/success badges
+- Soft coral: `#F7768E` — only for `fix` PR badge and similar warning-ish accents (much softer than `#FF6B6B`)
+- Muted text: `#A9B1D6` — was `#C9D1D9` (text on dark, contact badges)
+- Background: `#0D1117` (GitHub dark) — kept for seamless blend with GitHub UI; do NOT switch to `#1A1B26` (Tokyo Night native bg) because it'd visually mismatch the page background
+- Stats theme name: `tokyonight` — pass this to GRS endpoints and let the theme handle title/icon/text colors. Only override `bg_color=0D1117` and `hide_border=true`.
+- Badge style: `style=flat-square` for everything except the 3 final-CTA buttons in "Let's Work Together" (those use `style=for-the-badge` for prominence)
+
+Loud colors that were explicitly removed: `#00D9FF`, `#FF6B6B`, `#9333EA` (purple was too saturated). If you ever need pure white text, prefer `#A9B1D6`.
+
+## External SVG Services Used
+
+Working services as of last review (2026-05-12). Multiple GRS deployments are unstable — note the warnings carefully.
+
+| Purpose | Service | Status & Notes |
+|---|---|---|
+| Animated text intro | `readme-typing-svg.demolab.com` | ✅ Reliable. Pipe-separated `lines=` parameter, URL-encoded |
+| Tech stack icons | `skillicons.dev` | ✅ Reliable. One `?i=...` URL per category, comma-separated |
+| Stats / top-langs / pin cards | `gh-readme-stats.vercel.app` | ✅ **Use this mirror.** Currently the only working GRS deployment that returns full data with no PAT requirement. |
+| Streak stats | `streak-stats.demolab.com` | ✅ Reliable. Use `theme=tokyonight` and override only `background=0D1117&hide_border=true`. |
+| Activity graph | `github-readme-activity-graph.vercel.app` | ✅ Reliable. Use `color=7AA2F7&line=BB9AF7&point=A9B1D6&bg_color=0D1117`. |
+| Contribution stats badge | `readme-contribution-stats.aman-kumar-connect.workers.dev` | ✅ Cloudflare Worker; shows top contribution repos including PRs to other users' repos |
+| Profile views counter | `komarev.com/ghpvc` | ✅ Reliable |
+| Generic badges | `img.shields.io` | ✅ Reliable. Use this for all per-repo `stars`, `forks`, `languages/top` badges in Featured Projects rather than pin cards |
+| Snake animation | `raw.githubusercontent.com/mahmoodhamdi/mahmoodhamdi/output/...` | Not currently embedded (see Workflows table) |
+
+### ⚠️ Services that DON'T work (avoid)
+
+- **`github-readme-stats.vercel.app`** — paused (`DEPLOYMENT_PAUSED` 503). The official deployment.
+- **`github-readme-stats.hackclub.dev`** — its `/api?username=...`, `/api/pin/`, and `/api/top-langs/` endpoints all need a `PAT_1` env token that isn't configured, so they render an SVG containing the literal text "No GitHub API tokens found - Please add an env variable called PAT_1 with your GitHub API token in vercel". Avoid until they fix it.
+- **`github-readme-stats-git-masterrstaa-rickstaa.vercel.app`** — returns 401.
+- **`github-profile-trophy.vercel.app`** — works technically, but the rendered trophy graphics are cartoonish/childish-looking and were removed from the README on user request. Don't re-add unless asked.
 
 ## README Structure
 
 Sections, in order:
 
-1. **Hero** — animated typing SVG (6 lines including OSS contributor pitch) + 3 status badges + contact badges + 3 profile counters + 5 quick-stats badges (Mobile / Backend / Cloud / OSS Contributor / Languages)
-2. **About** — bio with concrete numbers (175+ repos, 140+ stars) and explicit OSS contributor mention with stargazer counts (Zustand 58k, Payload 42k, Joi 21k, dotenv 20k, Dify 141k). Update numbers as they grow.
-3. **Currently Building** — 3-column table: Escore (work), MWM (own SaaS), TStore (top open-source app). Update when active project mix changes.
+1. **Hero** — typing SVG (6 lines) + 3 status badges (Available · Egypt · MENA) + 5 capability badges (Mobile · Backend · Cloud · OSS · Bilingual) + combined contact-and-counters row (LinkedIn · Email · WhatsApp · GitHub · views · followers · repos). All flat-square style for visual cohesion.
+2. **About** — bio with concrete numbers and explicit OSS contributor mention with stargazer counts (Zustand 58k, Payload 42k, Joi 21k, dotenv 20k, Dify 141k).
+3. **Currently Building** — 3-column table: Escore (work), MWM (own SaaS), TStore (top open-source app).
 4. **Tech Stack** — four `skillicons.dev` rows (Languages / Mobile & Frontend / Backend & APIs / Databases & Infra)
-5. **GitHub Statistics** — stats card + streak + top languages, all themed `tokyonight`, then `Weekly Coding Activity` (WakaTime), then `Achievements` (trophies in 2×4 grid), then `Activity Graph` (last 31 days)
-6. **Featured Projects** — six pinned-style cards in a 2×3 table
-7. **Open Source & Community Impact** — auto contribution-stats badge + **`Notable Merged Contributions` table** with REAL merged PRs to external repos (Zustand, Joi, Payload, dotenv, Dify, debug, path-to-regexp, cookie). This table is the single highest-credibility section — keep it sorted by stargazer count and add new merged PRs as they land.
-8. **Contribution Activity** — snake animation (`<picture>` light/dark) + 3D contribution graph
-9. **Services I Offer** — services table + three big CTA buttons (WhatsApp / Email / LinkedIn)
-10. **Let's Connect** — footer with full-size badges and response-time note
+5. **GitHub Statistics** — stats card + streak (side-by-side via `<table>`) + top languages full-width below. All three use `theme=tokyonight` with `bg_color=0D1117&hide_border=true` only — no per-color overrides. Stats and top-langs use `gh-readme-stats.vercel.app` (NOT hackclub.dev).
+6. **Weekly Coding Activity** (subsection) — WakaTime auto-populated block between markers.
+7. **Activity Graph** (subsection) — last 31 days, themed.
+8. **Featured Projects** — six manual 2×3 cards. Heading link + 2-3 shields.io badges (stars/forks/lang) + description + topic hashtags.
+9. **Open Source & Community Impact** — auto contribution-stats badge + **`Notable Merged Contributions` table** with REAL merged PRs to external repos (Zustand, Joi, Payload, dotenv, Dify, debug, path-to-regexp, cookie). Highest-credibility section.
+10. **3D Contribution Graph** — single `<img>` from `profile-3d-contrib/profile-night-rainbow.svg`.
+11. **Services I Offer** — services table only (no inline CTAs — those moved to the next section to avoid the duplicate-contact problem).
+12. **Let's Work Together** — single consolidated final section with response-time note and 3 prominent `for-the-badge` CTAs (WhatsApp · Email · LinkedIn). This is the ONLY place final CTAs appear; do not duplicate.
 
-## Theme Tokens
-
-Used consistently across all SVG service URLs and badges:
-
-- Primary: `#00D9FF` (cyan) — title_color, ring_color, primary CTA
-- Accent: `#FF6B6B` (coral) — icon_color, fire, line, accent CTA
-- Background: `#0D1117` (GitHub dark) — bg_color, labelColor
-- Text: `#C9D1D9` — text_color
-- Stats theme name: `tokyonight`
-- Badge style: `style=for-the-badge` for hero/CTAs, `style=flat` for inline contact badges
-
-## External SVG Services Used
-
-When changing or adding visual elements, prefer these proven-working services:
-
-| Purpose | Service | Notes |
-|---|---|---|
-| Animated text intro | `readme-typing-svg.demolab.com` | Pipe-separated `lines=` parameter |
-| Tech stack icons | `skillicons.dev` | One `?i=...` URL per category, comma-separated |
-| Stats / top-langs cards | `github-readme-stats.hackclub.dev` | **Use this mirror, not `github-readme-stats.vercel.app`** — the upstream Vercel deployment was paused (`DEPLOYMENT_PAUSED`) when this README was redesigned. The HackClub mirror is API-compatible for stats and top-langs. |
-| **Pin cards** (per-repo) | ⚠️ Avoid — both deployments fail | The HackClub mirror's `/api/pin/` endpoint requires a `PAT_1` GitHub token env var that's not configured (renders SVG that says "No GitHub API tokens found"). The canonical Vercel deployment is paused. **Use a custom table with `img.shields.io/github/stars/...` and `.../languages/top/...` badges instead** — see the Featured Projects section in `README.md`. |
-| Streak stats | `streak-stats.demolab.com` | |
-| Trophies | `github-profile-trophy.vercel.app` | |
-| Activity graph | `github-readme-activity-graph.vercel.app` | |
-| Contribution stats badge | `readme-contribution-stats.aman-kumar-connect.workers.dev` | Cloudflare Worker; shows top contribution repos including PRs to other users' repos |
-| Profile views counter | `komarev.com/ghpvc` | |
-| Generic badges | `img.shields.io` | All badges use the project's theme colors |
-| Snake animation | `raw.githubusercontent.com/mahmoodhamdi/mahmoodhamdi/output/...` | Generated by `snake.yml` |
-
-If `github-readme-stats.hackclub.dev` ever returns errors, retry the canonical `github-readme-stats.vercel.app` first — the URL paths and query params are identical, so swapping the host is sufficient.
+Sections explicitly removed on user feedback (do not re-add without being asked):
+- ~~Trophies / Achievements~~ — cartoonish look
+- ~~Snake animation~~ — sparse contribution graph made it look weak
+- ~~Duplicate Let's Connect footer~~ — was redundant with the Services-section CTAs above it
 
 ## Editing Guidance
 
 - **Notable Merged Contributions table** is the single highest-credibility section. To add new entries, run `gh search prs --author=mahmoodhamdi --merged --limit 100 --json repository,title,url,number` and insert any new merged PRs to *external* repos (filter out `mahmoodhamdi/*` self-owned ones). Sort by repo stargazer count descending. The table currently lists 11 PRs across 8 projects (~304k combined stars).
-- **Featured Projects** are hard-coded as a 2×3 manual table — each cell links to a repo and pulls live stars/forks/language counts via shields.io badges (no broken pin-card service). When higher-star or more-impressive repos appear, swap the repo references in all 4 places per cell (heading link, 2-3 badge URLs, description). Currently featured: `Flutter-Developer-Interview-Questions` (top draw), `TStore` (production Flutter e-commerce), `flutter_google_workspace_integration`, `mwm` (bilingual CMS), `esports-flask`, `Markdown-to-PDF`.
-- **Currently Building section** lists 3 active projects in a table. Update when the project mix meaningfully changes — keep one work project (Escore at ROV GROUP), one own SaaS, one open-source headliner.
-- **About-section numbers and stargazer counts in the typing SVG / About list** ("175+ repositories", "140+ stars", "Zustand 58k", "Dify 141k", etc.) are point-in-time snapshots — refresh them quarterly or when the deltas exceed ~10%.
-- **Typing SVG** lives in the hero `<img src="https://readme-typing-svg.demolab.com?...">` — lines are semicolon-separated and URL-encoded. Spaces become `+`, `·` is `%C2%B7`, `—` is `%E2%80%94`, `'` stays literal.
-- **Trophies** are in a 2×4 grid (`row=2&column=4`) — `github-profile-trophy` auto-selects which trophies to show based on the user's stats; edit the row/column counts to change layout, not which trophies appear.
-- Verify every external URL renders before considering an edit done. Many of these services have rate-limit / availability issues; test in a browser, not just `curl`.
+- **Featured Projects** are hard-coded as a 2×3 manual table — each cell links to a repo and pulls live stars/forks/language counts via shields.io badges (no broken pin-card service). When higher-star or more-impressive repos appear, swap the repo references in all 4 places per cell (heading link, 2-3 badge URLs, description).
+- **Currently Building** lists 3 active projects. Keep the structure: one work project (Escore at ROV GROUP), one own SaaS, one open-source headliner.
+- **About-section numbers and stargazer counts** ("175+ repositories", "140+ stars", "Zustand 58k", "Dify 141k") are point-in-time snapshots — refresh quarterly or when deltas exceed ~10%.
+- **Typing SVG** lives in the hero — lines are semicolon-separated and URL-encoded. Spaces become `+`, `·` is `%C2%B7`, `—` is `%E2%80%94`, `'` stays literal.
+- Verify every external URL renders before considering an edit done. Test in a browser, not just `curl` — some services return 200 but with error-text rendered as SVG (the HackClub PAT_1 problem).
 - The 3D SVG path in the README (`./profile-3d-contrib/profile-night-rainbow.svg`) is one of ~10 variants the workflow produces; swap the filename to change the theme rather than regenerating.
 - Audience focus is Arabic / MENA market — keep regional framing when rewording copy, but keep README itself in English for international visibility.
