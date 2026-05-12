@@ -45,7 +45,7 @@ Working services as of last review (2026-05-12). Multiple GRS deployments are un
 |---|---|---|
 | Animated text intro | `readme-typing-svg.demolab.com` | ✅ Reliable. Pipe-separated `lines=` parameter, URL-encoded |
 | Tech stack icons | `skillicons.dev` | ✅ Reliable. One `?i=...` URL per category, comma-separated |
-| Stats / top-langs / pin cards | `gh-readme-stats.vercel.app` | ✅ **Use this mirror.** Currently the only working GRS deployment that returns full data with no PAT requirement. |
+| Stats / top-langs / pin cards | `gh-readme-stats.vercel.app` | ⚠️ Returns valid SVG in `curl` (200) and even via GitHub camo (200) but **rendered as broken images on the live profile** — intermittent 504s from camo's perspective. Don't trust for stats card / top-langs. Use only as a fallback or for testing. |
 | Streak stats | `streak-stats.demolab.com` | ✅ Reliable. Use `theme=tokyonight` and override only `background=0D1117&hide_border=true`. |
 | Activity graph | `github-readme-activity-graph.vercel.app` | ✅ Reliable. Use `color=7AA2F7&line=BB9AF7&point=A9B1D6&bg_color=0D1117`. |
 | Contribution stats badge | `readme-contribution-stats.aman-kumar-connect.workers.dev` | ✅ Cloudflare Worker; shows top contribution repos including PRs to other users' repos |
@@ -68,7 +68,7 @@ Sections, in order:
 2. **About** — bio with concrete numbers and explicit OSS contributor mention with stargazer counts (Zustand 58k, Payload 42k, Joi 21k, dotenv 20k, Dify 141k).
 3. **Currently Building** — 3-column table: Escore (work), MWM (own SaaS), TStore (top open-source app).
 4. **Tech Stack** — four `skillicons.dev` rows (Languages / Mobile & Frontend / Backend & APIs / Databases & Infra)
-5. **GitHub Statistics** — stats card + streak (side-by-side via `<table>`) + top languages full-width below. All three use `theme=tokyonight` with `bg_color=0D1117&hide_border=true` only — no per-color overrides. Stats and top-langs use `gh-readme-stats.vercel.app` (NOT hackclub.dev).
+5. **GitHub Statistics** — **static** infographic of 6 shields.io badges (Rank · PRs · Commits · Stars · Issues · Projects) in a single row, then the dynamic `streak-stats.demolab.com` card below. The dynamic GRS stats card and top-langs were removed because every available GRS deployment is broken on the live profile (canonical paused, hackclub needs PAT, gh-readme-stats mirror gets intermittent 504s via camo). The static numbers were captured 2026-05-12 from the `gh-readme-stats.vercel.app` SVG (Rank A, 854 PRs, 3103 commits, 171 stars, 28 issues, 69 projects) — refresh quarterly via the same endpoint.
 6. **Weekly Coding Activity** (subsection) — WakaTime auto-populated block between markers.
 7. **Activity Graph** (subsection) — last 31 days, themed.
 8. **Featured Projects** — six manual 2×3 cards. Heading link + 2-3 shields.io badges (stars/forks/lang) + description + topic hashtags.
@@ -84,7 +84,7 @@ Sections explicitly removed on user feedback (do not re-add without being asked)
 
 ## Editing Guidance
 
-- **Notable Merged Contributions table** is the single highest-credibility section. To add new entries, run `gh search prs --author=mahmoodhamdi --merged --limit 100 --json repository,title,url,number` and insert any new merged PRs to *external* repos (filter out `mahmoodhamdi/*` self-owned ones). Sort by repo stargazer count descending. The table currently lists 11 PRs across 8 projects (~304k combined stars).
+- **Notable Merged Contributions table** is the single highest-credibility section. To add new entries, run `gh search prs --author=mahmoodhamdi --merged --limit 100 --json repository,title,url,number,createdAt | jq -r '.[] | select(.repository.nameWithOwner | startswith("mahmoodhamdi/") | not) | "\(.createdAt[:10]) | \(.repository.nameWithOwner) #\(.number) | \(.title)"'` and insert any new merged PRs to *external* repos. Then `gh api repos/<owner>/<repo>` for the stargazer count. Sort the table by stargazer count descending. The table currently lists **13 PRs across 10 projects** (~340k combined stars: Dify 141k, Zustand 58k, Payload 42k, nanoid 27k, Joi 21k, dotenv 20k, debug 11k, helmet 11k, path-to-regexp 8.5k, cookie 1.5k).
 - **Featured Projects** are hard-coded as a 2×3 manual table — each cell links to a repo and pulls live stars/forks/language counts via shields.io badges (no broken pin-card service). When higher-star or more-impressive repos appear, swap the repo references in all 4 places per cell (heading link, 2-3 badge URLs, description).
 - **Currently Building** lists 3 active projects. Keep the structure: one work project (Escore at ROV GROUP), one own SaaS, one open-source headliner.
 - **About-section numbers and stargazer counts** ("175+ repositories", "140+ stars", "Zustand 58k", "Dify 141k") are point-in-time snapshots — refresh quarterly or when deltas exceed ~10%.
