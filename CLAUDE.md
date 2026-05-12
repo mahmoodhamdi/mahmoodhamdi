@@ -64,8 +64,8 @@ Working services as of last review (2026-05-12). Multiple GRS deployments are un
 
 Sections, in order:
 
-1. **Hero** — typing SVG (6 lines) + 3 status badges (Available · Egypt · MENA) + 5 capability badges (Mobile · Backend · Cloud · OSS · Bilingual) + combined contact-and-counters row (LinkedIn · Email · WhatsApp · GitHub · views · followers · repos). All flat-square style for visual cohesion.
-2. **About** — bio with concrete numbers and explicit OSS contributor mention with stargazer counts (Zustand 58k, Payload 42k, Joi 21k, dotenv 20k, Dify 141k).
+1. **Hero** — typing SVG only (6 lines). All status / capability / contact / counter badges were removed on user feedback ("شيل السكشن دا") because the badge stack was visually noisy and the typing animation already conveys most of that info (status, capability, location). Don't re-add the badge rows.
+2. **About** — restructured as: lead paragraph + 2-column table (`What I Do` left / `By the Numbers` right) + `Open Source Footprint` line with stargazer-count chips + `Hire Me` line with inline contact links. This is also where the contact info now lives (since the hero contact badges are gone). Use inline `[email](mailto:)` / `[phone](https://wa.me/...)` / `[LinkedIn]` links — NOT badges — to keep it visually distinct from the final CTA section.
 3. **Currently Building** — 3-column table: Escore (work), MWM (own SaaS), TStore (top open-source app).
 4. **Tech Stack** — four `skillicons.dev` rows (Languages / Mobile & Frontend / Backend & APIs / Databases & Infra)
 5. **GitHub Statistics** — **static** infographic of 6 shields.io badges (Rank · PRs · Commits · Stars · Issues · Projects) in a single row, then the dynamic `streak-stats.demolab.com` card below. The dynamic GRS stats card and top-langs were removed because every available GRS deployment is broken on the live profile (canonical paused, hackclub needs PAT, gh-readme-stats mirror gets intermittent 504s via camo). The static numbers were captured 2026-05-12 from the `gh-readme-stats.vercel.app` SVG (Rank A, 854 PRs, 3103 commits, 171 stars, 28 issues, 69 projects) — refresh quarterly via the same endpoint.
@@ -81,6 +81,8 @@ Sections explicitly removed on user feedback (do not re-add without being asked)
 - ~~Trophies / Achievements~~ — cartoonish look
 - ~~Snake animation~~ — sparse contribution graph made it look weak
 - ~~Duplicate Let's Connect footer~~ — was redundant with the Services-section CTAs above it
+- ~~Hero badge rows~~ (status / capability / contact / counters) — too noisy. The typing animation already conveys status (`Available for hire`), capability (`Flutter · Node.js · Python · TypeScript`), and OSS pitch. Contact links moved into the new `Hire Me` block inside About.
+- ~~Dynamic GitHub stats card and top-langs card~~ — see GitHub Statistics section above for the camo / availability issue
 
 ## Editing Guidance
 

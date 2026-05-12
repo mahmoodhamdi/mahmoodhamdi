@@ -10,45 +10,47 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=820&lines=Hi+%F0%9F%91%8B+I'm+Mahmoud+Hamdy;Full-Stack+Software+Engineer;Flutter+%C2%B7+Node.js+%C2%B7+Python+%C2%B7+TypeScript;Open-source+contributor+%E2%80%94+Zustand+%C2%B7+Joi+%C2%B7+Payload+%C2%B7+Dify;Building+production+apps+for+the+MENA+region+%F0%9F%87%AA%F0%9F%87%AC;Available+for+hire+%E2%80%94+let's+build+something+great" alt="Mahmoud Hamdy — Full-Stack Software Engineer" />
 </a>
 
-<p>
-  <img src="https://img.shields.io/badge/Available_for_hire-7AA2F7?style=flat-square&labelColor=0D1117&logo=githubsponsors&logoColor=7AA2F7" alt="Available for hire" />
-  <img src="https://img.shields.io/badge/Egypt-BB9AF7?style=flat-square&labelColor=0D1117" alt="Based in Egypt" />
-  <img src="https://img.shields.io/badge/MENA_Region-9ECE6A?style=flat-square&labelColor=0D1117" alt="MENA region focus" />
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Mobile-Flutter%20%C2%B7%20Android-7AA2F7?style=flat-square&labelColor=0D1117&logo=flutter&logoColor=7AA2F7" alt="Mobile" />
-  <img src="https://img.shields.io/badge/Backend-Node.js%20%C2%B7%20Python-7AA2F7?style=flat-square&labelColor=0D1117&logo=nodedotjs&logoColor=7AA2F7" alt="Backend" />
-  <img src="https://img.shields.io/badge/Cloud-Docker%20%C2%B7%20CI%2FCD-7AA2F7?style=flat-square&labelColor=0D1117&logo=docker&logoColor=7AA2F7" alt="Cloud" />
-  <img src="https://img.shields.io/badge/OSS-Zustand%20%C2%B7%20Joi%20%C2%B7%20Payload%20%C2%B7%20Dify-BB9AF7?style=flat-square&labelColor=0D1117&logo=opensourceinitiative&logoColor=BB9AF7" alt="OSS Contributor" />
-  <img src="https://img.shields.io/badge/Bilingual-Arabic%20%C2%B7%20English-BB9AF7?style=flat-square&labelColor=0D1117" alt="Bilingual" />
-</p>
-
-<p>
-  <a href="https://www.linkedin.com/in/mahmoud-hamdy-alashwah/"><img src="https://img.shields.io/badge/LinkedIn-A9B1D6?style=flat-square&logo=linkedin&logoColor=A9B1D6&labelColor=0D1117" alt="LinkedIn" /></a>
-  <a href="mailto:hmdy7486@gmail.com"><img src="https://img.shields.io/badge/Email-A9B1D6?style=flat-square&logo=gmail&logoColor=A9B1D6&labelColor=0D1117" alt="Email" /></a>
-  <a href="https://wa.me/201019793768"><img src="https://img.shields.io/badge/WhatsApp-A9B1D6?style=flat-square&logo=whatsapp&logoColor=A9B1D6&labelColor=0D1117" alt="WhatsApp" /></a>
-  <a href="https://github.com/mahmoodhamdi"><img src="https://img.shields.io/badge/GitHub-A9B1D6?style=flat-square&logo=github&logoColor=A9B1D6&labelColor=0D1117" alt="GitHub" /></a>
-  &nbsp;·&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=mahmoodhamdi&style=flat-square&color=7AA2F7&label=views&labelColor=0D1117" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/mahmoodhamdi?style=flat-square&color=7AA2F7&labelColor=0D1117&label=followers" alt="Followers" />
-  <img src="https://img.shields.io/badge/repos-175%2B-BB9AF7?style=flat-square&labelColor=0D1117" alt="Public repos" />
-</p>
-
 </div>
 
 ---
 
 ## 🚀 About Me
 
-Full-Stack Software Engineer based in **Egypt**, building scalable mobile and backend systems. Currently engineering **Escore** at **ROV GROUP** — a real-time esports platform serving Arabic-speaking markets across the MENA region.
+Full-Stack Software Engineer based in **Egypt**, building scalable mobile and backend systems for the **MENA region**. Currently engineering **Escore** at **ROV GROUP** — a real-time esports platform for Arabic-speaking markets.
 
-- 📈 **GitHub Rank A** · **854 PRs** · **3,103 commits** · **69 projects contributed to** · **176 public repos** · **140+ stars** on personal work
-- 🌐 **Open-source contributor** — merged PRs in **[Dify](https://github.com/langgenius/dify)** (141k★), **[Zustand](https://github.com/pmndrs/zustand)** (58k★), **[Payload CMS](https://github.com/payloadcms/payload)** (42k★), **[nanoid](https://github.com/ai/nanoid)** (27k★), **[Joi](https://github.com/hapijs/joi)** (21k★), **[dotenv](https://github.com/motdotla/dotenv)** (20k★), **[Helmet](https://github.com/helmetjs/helmet)** (11k★) and more
-- 🌍 Specialize in products built for the **MENA region** with bilingual (AR/EN) and **RTL-first** design
-- 🎯 Currently focused on **Cloud Architecture, DevOps & AI/ML integration**
-- 💼 **Open to freelance, contract & full-time roles** — remote, hybrid, or on-site
-- 📬 Reach me anytime: **hmdy7486@gmail.com** · **+20 101 979 3768**
+<table>
+<tr>
+<td valign="top" width="50%">
+
+### 🎯 What I Do
+
+- **Mobile** — Flutter · Native Android
+- **Backend** — Node.js · Python · REST / GraphQL
+- **Cloud & DevOps** — Docker · CI/CD · AI/ML integration
+- **Locale** — Bilingual (AR / EN) · RTL-first design
+
+</td>
+<td valign="top" width="50%">
+
+### 📈 By the Numbers
+
+- **GitHub Rank A** · **854** PRs merged
+- **3,103** commits · **176** public repos
+- **69** OSS projects contributed to
+- **140+** community stars on personal work
+
+</td>
+</tr>
+</table>
+
+### 🌐 Open Source Footprint
+
+Merged contributions in **[Dify](https://github.com/langgenius/dify)** `141k★` · **[Zustand](https://github.com/pmndrs/zustand)** `58k★` · **[Payload CMS](https://github.com/payloadcms/payload)** `42k★` · **[nanoid](https://github.com/ai/nanoid)** `27k★` · **[Joi](https://github.com/hapijs/joi)** `21k★` · **[dotenv](https://github.com/motdotla/dotenv)** `20k★` · **[Helmet](https://github.com/helmetjs/helmet)** `11k★` and more — see the full table below.
+
+### 💼 Hire Me
+
+**Open for freelance, contract & full-time roles** — remote, hybrid, or on-site.
+&nbsp;📬&nbsp;[hmdy7486@gmail.com](mailto:hmdy7486@gmail.com)&nbsp;&nbsp;·&nbsp;&nbsp;💬&nbsp;[+20 101 979 3768](https://wa.me/201019793768)&nbsp;&nbsp;·&nbsp;&nbsp;🔗&nbsp;[LinkedIn](https://www.linkedin.com/in/mahmoud-hamdy-alashwah/)
 
 ---
 
