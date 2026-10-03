@@ -155,16 +155,16 @@ Clean Architecture · 219 unit tests · Auth, cart, wishlist, orders, reviews, c
 <!--START_SECTION:waka-->
 
 ```dart
-From: 24 September 2026 - To: 01 October 2026
+From: 25 September 2026 - To: 02 October 2026
 
-Total Time: 41 hrs 4 mins
+Total Time: 24 hrs 5 mins
 
-TypeScript   19 hrs 32 mins        ████████▓░░░░░░░░░░░░░░░░   34.65 %
-Other        15 hrs 19 mins        ██████▓░░░░░░░░░░░░░░░░░░   27.16 %
-Markdown     14 hrs 52 mins        ██████▓░░░░░░░░░░░░░░░░░░   26.36 %
-JavaScript   3 hrs 5 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.48 %
-Python       1 hr 42 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.04 %
-JSON         56 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.66 %
+Other        15 hrs 12 mins        █████████▓░░░░░░░░░░░░░░░   38.71 %
+Markdown     11 hrs 10 mins        ███████░░░░░░░░░░░░░░░░░░   28.44 %
+TypeScript   8 hrs 47 mins         █████▓░░░░░░░░░░░░░░░░░░░   22.35 %
+JavaScript   2 hrs 30 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.37 %
+JSON         50 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.14 %
+Text         27 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.16 %
 ```
 
 <!--END_SECTION:waka-->
