@@ -155,16 +155,16 @@ Clean Architecture · 219 unit tests · Auth, cart, wishlist, orders, reviews, c
 <!--START_SECTION:waka-->
 
 ```dart
-From: 17 October 2026 - To: 24 October 2026
+From: 18 October 2026 - To: 25 October 2026
 
-Total Time: 7 hrs 51 mins
+Total Time: 5 hrs 45 mins
 
-Markdown     4 hrs 42 mins         ███████████░░░░░░░░░░░░░░   44.03 %
-Other        2 hrs 49 mins         ██████▓░░░░░░░░░░░░░░░░░░   26.43 %
-TypeScript   1 hr 42 mins          ████░░░░░░░░░░░░░░░░░░░░░   15.97 %
-Bash         46 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   07.23 %
-Astro        12 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.90 %
-YAML         8 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.32 %
+Markdown     2 hrs 38 mins         ████████░░░░░░░░░░░░░░░░░   32.28 %
+Other        2 hrs 25 mins         ███████▒░░░░░░░░░░░░░░░░░   29.64 %
+TypeScript   1 hr 42 mins          █████▒░░░░░░░░░░░░░░░░░░░   20.86 %
+Bash         46 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   09.45 %
+Astro        12 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.49 %
+YAML         8 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.73 %
 ```
 
 <!--END_SECTION:waka-->
